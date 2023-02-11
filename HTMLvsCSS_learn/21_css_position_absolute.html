@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HunVu</title>
+        <meta charset="utf-8">
+
+        <style>
+            html, body {
+                margin: 0;
+            }
+
+            .box {
+                width: 100%;
+                height: 120px;
+                background-color: #333;
+                position: relative;
+            }
+
+            /* Coi box lam goc toa do */
+            .box-child {
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            .box2 {
+                width: 300px;
+                height: 100px;
+                background-color: violet;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            <div>
+                <div class="box2">
+                    <div class="box-child"></div>
+                </div>
+            </div>
+           
+        </div>
+
+        <h1>Position</h1>
+        <ul>
+            <li>Relative</li>
+            <li>Absolute: Phụ thuộc vào thẻ cha gần nhất chua thuoc tinh position lam goc  toa do</li>
+            <li>Fixed</li>
+            <li>Sticky</li>
+        </ul>
+    </body>
+</html>

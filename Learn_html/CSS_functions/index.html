@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HungVu</title>
+        <meta charset="utf-8">
+        <style>
+            .box {
+                width: calc(80% + 20px);
+                height: 120px;
+                background: rgb(190, 124, 157);
+            }
+
+            .box::after {
+                content: " (" attr(data-title) ") ";
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box" data-title="Day la may hong"></div>
+
+        <a href=""></a>
+
+        <h1>CSS functions</h1>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>calc()</li>
+            <li>attr()</li>
+        </ul>
+    </body>
+
+</html>

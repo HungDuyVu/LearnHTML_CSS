@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HungVu</title>
+        <meta charset="utf-8">
+        <style>
+            .box {
+                width: 100%;
+                height: 120px;
+                background: rgb(190, 124, 157);
+            }
+
+            .box::before {
+                content: "";
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+            }
+
+            .box::after {
+                content: "Xin chao";
+                color: red;
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+            }
+
+            <!-- h1::first-letter {
+                font-size: 50px;
+            } -->
+
+            <!-- h1::first-line {
+                color: red;
+            } -->
+
+            h1::selection {
+                background-color: violet;
+                color: #fff;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="box"></div>
+        <h1>CSS pseudo-elements <br /> Dong thu hai</h1>
+        <ul>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::first-letter</li>
+            <li>::first-line</li>
+            <li>::selection</li>
+            
+    </body>
+
+</html>

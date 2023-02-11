@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --white-color: #fff;
+    --title-color: #1e1e1e;
+    --tick-color: #0078ff;
+    --black-color:#040404;
+    --text-color: #6a6a6a;
+    --border-color: #cde1f8;
+
+    --header-height: 70px;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
